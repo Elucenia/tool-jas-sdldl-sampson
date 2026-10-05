@@ -1,0 +1,38 @@
+{
+  "ownCodeLicense": "Apache-2.0",
+  "ownCodeAttribution": "ELUCENIA · Felipe Guedes",
+  "externalApplicationCodeCopied": false,
+  "paperFullTextCopied": false,
+  "clinicalDataCopied": false,
+  "providerPermissionInvented": false,
+  "unrestrictedPublicationLicenseClaim": false,
+  "sources": [
+    {
+      "id": "sampson-2021",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33876239/",
+      "access": "Original indexed abstract, equations, calibration input and rights note read",
+      "edition": "Clin Chem 2021;67:987–997, DOI10.1093/clinchem/hvab048",
+      "rights": "Indexed article notice states US Government work, public domain in the US. No global publication-license claim or complete article copy."
+    },
+    {
+      "id": "sampson-2020",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7240357/",
+      "access": "Primary full-text study read; previous Decimal source receipt preserves detailed equation/units audit",
+      "edition": "JAMA Cardiol 2020;5:540–548, DOI10.1001/jamacardio.2020.0013",
+      "rights": "Cited mathematical coefficients independently implemented; no complete article/images/data copied or unrestricted publication license asserted."
+    }
+  ],
+  "methodScope": {
+    "primarySourceIds": [
+      "sampson-2021",
+      "sampson-2020"
+    ],
+    "methodEditions": {
+      "sdLDL": 2021,
+      "panelLDL": 2020
+    },
+    "policies": "Panel-derived LDL is the published2021 calibration input. Measured-LDL direct mode is an arithmetic extension, not a clinically validated equivalence. TG≤800 supports the2020 LDL equation; other bounds are software policies."
+  },
+  "clinicalApproval": "not-performed",
+  "professionalLanguageApproval": "not-performed"
+}

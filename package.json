@@ -1,0 +1,21 @@
+{
+  "name": "@elucenia/tool-jas-sdldl-sampson",
+  "version": "0.1.0-candidate.20261005",
+  "private": true,
+  "type": "commonjs",
+  "main": "calculator.js",
+  "bin": {
+    "elucenia-jas-sdldl-sampson": "cli.cjs"
+  },
+  "license": "Apache-2.0",
+  "scripts": {
+    "test": "node test.cjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Elucenia/tool-jas-sdldl-sampson.git"
+  }
+}

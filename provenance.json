@@ -1,0 +1,198 @@
+{
+  "schema": "elucenia-extra4-current-mathematical-candidate-r1",
+  "id": "jas-sdldl-sampson",
+  "baseline": {
+    "id": "jas-sdldl-sampson",
+    "repo": "Elucenia/tool-jas-sdldl-sampson",
+    "commit": "cd854d0612b1e06ceded72baec35235297f8c2db",
+    "tree": "c105bb7fd19dabaad3a73b2552bfec6e54e10647",
+    "currentEntries": [
+      {
+        "path": "README.md",
+        "sha": "220f531460eea6ccf8fb03a69f57d50b953408da",
+        "bytes": 191,
+        "sha256": "4a4216fd7f17812d343df9ac2df75681d6b2338c9a70bdfef832a1f40a0d23d7"
+      }
+    ],
+    "currentFailure": "Only README.md is published; no implementation/tests/ten-language files are present."
+  },
+  "originalImplementation": {
+    "file": "apps/website/src/lib/sampson-sdldl.cjs",
+    "bytes": 2551,
+    "sha256": "3b92dea54a12807a2417fbff73e75729204c4aa9aa8b8a0bfb631e537f8b4bf6"
+  },
+  "methodCopiedByteForByte": true,
+  "packageImplementationFiles": {
+    "method.cjs": "3b92dea54a12807a2417fbff73e75729204c4aa9aa8b8a0bfb631e537f8b4bf6",
+    "calculator.js": "c6204f2e079e3bc3285cdfc2b44e088f95544fea0f939585ce9dcbc7e6dfac5c",
+    "numeric-input.cjs": "78fcd4a16b380c081c150c729d7dd7f4f4324be3e5620729b21e4b04e7af1c4f",
+    "locale-number-format.cjs": "82234360c221ed3b44cc089bcbd68d269e7cd1962b2e942f3971160533baefa7",
+    "calculator.browser.js": "904f81cb7db9251da27782c72c33ab5be7bfba9e58eafa3f6ccebec266d122f5",
+    "demo-runtime.js": "37bae05b99c180cd04394378945ed3fa6c3efca9c5334bd6ed7b80b89840eda1",
+    "cli.cjs": "f790034a92d5c3bdb31c670cc072a04f0005232a755dc84a0f1088536fe53e61",
+    "tool.json": "a9fa5928b54f2bd8a12d38c2709d9544a41f6c283899aeef82f6dded8da356cd",
+    "localization/pt-BR.json": "32aee50724d376aec3e336d6b655d96fbe1e6375d937e643166f8c64149f9245",
+    "localization/en.json": "ea8436d7930dc5a9bdbfca577b63ceb9c08d6acc59ff29413273962714768933",
+    "localization/es.json": "8e9ce63b5224eb259be95d5f21d3d9e456b7dd63fdbdbc8e7cd42260739b87c8",
+    "localization/fr.json": "750f5f974193cddeac6a9356c6db3527dc79ec4b8f25ed018e253bf684b633be",
+    "localization/de.json": "cef8ebd06da67877a75f768671b90e63a76017a093776aba8b099dc3c192822e",
+    "localization/it.json": "c8c1ad3ea9b18a6f6b104f868234c3d964ac4c37f5e55f30a3d0b1eed4fb37b8",
+    "localization/ar.json": "d4945a8c6867e3cf37854ab09cd98d55c5ca264fdbbd1e36c16159ee4858a9f3",
+    "localization/zh.json": "7ca998e4c09066ed408ab9632ba7c8a7097ca6ab34533e341da574533e55076c",
+    "localization/ja.json": "0783ed79cbee1619b574a2dd5fb95c8308c8ed553ba70cc4abc2996ec5cb969b",
+    "localization/hi.json": "8680d999ce6a2a29ae75d05dfa220fc36e7660b39a038e38d57854de993da7fc"
+  },
+  "independentExpectedValues": {
+    "file": "reports/review-20261003/extra-additional-source-oracles.json",
+    "bytes": 844513,
+    "sha256": "0488f820cd353b1d7fe24f759d5d439dd6b46638a951093b93a04ece349e1a3d"
+  },
+  "originalIndependentOracle": {
+    "file": "tests/extra-additional-source-oracle.py",
+    "bytes": 5273,
+    "sha256": "420c95bd5c1f9adfe7131a1ce8c595c259ac88cf14f895460ec38f40a301e286"
+  },
+  "localizations": [
+    {
+      "locale": "pt-BR",
+      "source": {
+        "file": "apps/command-center/private/localization/pt-BR.json",
+        "bytes": 13542498,
+        "sha256": "027b14632bb099f8d429ff1f3ba5c0538d32c4b3bd4c82f84f373aab5942779c"
+      },
+      "approval": "not-performed"
+    },
+    {
+      "locale": "en",
+      "source": {
+        "file": "apps/command-center/private/localization/en.json",
+        "bytes": 13624792,
+        "sha256": "14ca8430195fb9f2dfb81523a246729d672a22dea8e97b377c146733baf6c7bb"
+      },
+      "approval": "not-performed"
+    },
+    {
+      "locale": "es",
+      "source": {
+        "file": "apps/command-center/private/localization/es.json",
+        "bytes": 13667099,
+        "sha256": "4f40d0b8168406d068f8846cdd96f60d87453d5df7d841229f3cac51ba48c7bb"
+      },
+      "approval": "not-performed"
+    },
+    {
+      "locale": "fr",
+      "source": {
+        "file": "apps/command-center/private/localization/fr.json",
+        "bytes": 13711979,
+        "sha256": "839cd7afee6a1f51ade686e9acee6ac137918f53b3abc5114f992b5389fc988b"
+      },
+      "approval": "not-performed"
+    },
+    {
+      "locale": "de",
+      "source": {
+        "file": "apps/command-center/private/localization/de.json",
+        "bytes": 13688516,
+        "sha256": "08d0a415ef589f54e962e146904e4ecdfe5b2343d6ac41a7d9471d608ca953df"
+      },
+      "approval": "not-performed"
+    },
+    {
+      "locale": "it",
+      "source": {
+        "file": "apps/command-center/private/localization/it.json",
+        "bytes": 13666560,
+        "sha256": "e5b00878192a353fa585f7a3043e354081170750dd8c096b886a27b0e50f302d"
+      },
+      "approval": "not-performed"
+    },
+    {
+      "locale": "ar",
+      "source": {
+        "file": "apps/command-center/private/localization/ar.json",
+        "bytes": 13891805,
+        "sha256": "94c9c8e6a50a41cad56e6d3c70127089ec604d6bf5e1fde097519b269d4c91cd"
+      },
+      "approval": "not-performed"
+    },
+    {
+      "locale": "zh",
+      "source": {
+        "file": "apps/command-center/private/localization/zh.json",
+        "bytes": 13537617,
+        "sha256": "5bfb5aeeed5720ebd05c4c9703f181431681bde6c963d30f7c5b0d0c5c527ae0"
+      },
+      "approval": "not-performed"
+    },
+    {
+      "locale": "ja",
+      "source": {
+        "file": "apps/command-center/private/localization/ja.json",
+        "bytes": 13669299,
+        "sha256": "ebd3f71d122d5855ecf136cd7624ded18dde3c7417251c5c287c88feb959231a"
+      },
+      "approval": "not-performed"
+    },
+    {
+      "locale": "hi",
+      "source": {
+        "file": "apps/command-center/private/localization/hi.json",
+        "bytes": 14323180,
+        "sha256": "7baaffa0b034c05c2dfe9f7c61838c81beaed80cb4ea686e0de2921ad1fedd38"
+      },
+      "approval": "not-performed"
+    }
+  ],
+  "currentMetadata": {
+    "file": "apps/dashboard/private/catalog/additional-tools.json",
+    "bytes": 21021,
+    "sha256": "ead723811c66caaeeb872c66f5d30353da4f60b27eaf6c74bbe2a7c3f397458b"
+  },
+  "rights": {
+    "ownCodeLicense": "Apache-2.0",
+    "ownCodeAttribution": "ELUCENIA · Felipe Guedes",
+    "externalApplicationCodeCopied": false,
+    "paperFullTextCopied": false,
+    "clinicalDataCopied": false,
+    "providerPermissionInvented": false,
+    "unrestrictedPublicationLicenseClaim": false,
+    "sources": [
+      {
+        "id": "sampson-2021",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/33876239/",
+        "access": "Original indexed abstract, equations, calibration input and rights note read",
+        "edition": "Clin Chem 2021;67:987–997, DOI10.1093/clinchem/hvab048",
+        "rights": "Indexed article notice states US Government work, public domain in the US. No global publication-license claim or complete article copy."
+      },
+      {
+        "id": "sampson-2020",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7240357/",
+        "access": "Primary full-text study read; previous Decimal source receipt preserves detailed equation/units audit",
+        "edition": "JAMA Cardiol 2020;5:540–548, DOI10.1001/jamacardio.2020.0013",
+        "rights": "Cited mathematical coefficients independently implemented; no complete article/images/data copied or unrestricted publication license asserted."
+      }
+    ],
+    "methodScope": {
+      "primarySourceIds": [
+        "sampson-2021",
+        "sampson-2020"
+      ],
+      "methodEditions": {
+        "sdLDL": 2021,
+        "panelLDL": 2020
+      },
+      "policies": "Panel-derived LDL is the published2021 calibration input. Measured-LDL direct mode is an arithmetic extension, not a clinically validated equivalence. TG≤800 supports the2020 LDL equation; other bounds are software policies."
+    },
+    "clinicalApproval": "not-performed",
+    "professionalLanguageApproval": "not-performed"
+  },
+  "clinicalApproval": "not-performed",
+  "professionalLanguageApproval": "not-performed",
+  "GitHubWrites": 0,
+  "documentaryFinalization": {
+    "source": "reports/review-20261005-completion/extra4-publication-candidate-manifest-r5.json",
+    "sha256": "d18213535252877013309a2e8ad75d5686795aef7127bff0d4532b83e6e08690",
+    "scope": "Per-tool source/rights scope and explicit method editions; current mathematical modules unchanged; no clinical/professional approval."
+  }
+}

@@ -1,0 +1,3057 @@
+{
+  "at": "2026-10-05T17:34:03.881Z",
+  "summary": {
+    "id": "jas-sdldl-sampson",
+    "cases": 349,
+    "numericOutputs": 105,
+    "mathematicalDomainRejections": 153,
+    "inputValidationRejections": 91,
+    "localeNumericalComparisons": 1050,
+    "conditionalFieldContracts": 20,
+    "failed": 0,
+    "independentExpectedValues": "Pinned historical Decimal60 source-derived vectors; fresh package replay, not a new independent oracle",
+    "clinicalApproval": "not-performed",
+    "professionalLanguageApproval": "not-performed"
+  },
+  "results": [
+    {
+      "label": "sampson-direct-1-1",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-direct-1-10",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 4.7,
+        "ldlMgDl": 10,
+        "largeBuoyantMgDl": 5.3
+      },
+      "obtained": {
+        "value": 4.7,
+        "ldlMgDl": 10,
+        "largeBuoyantMgDl": 5.3
+      }
+    },
+    {
+      "label": "sampson-direct-1-50",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-direct-1-100",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-direct-1-250",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-direct-1-500",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-direct-3-1",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-direct-3-10",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 6.2,
+        "ldlMgDl": 10,
+        "largeBuoyantMgDl": 3.8
+      },
+      "obtained": {
+        "value": 6.2,
+        "ldlMgDl": 10,
+        "largeBuoyantMgDl": 3.8
+      }
+    },
+    {
+      "label": "sampson-direct-3-50",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-direct-3-100",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-direct-3-250",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-direct-3-500",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-direct-10-1",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-direct-10-10",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 7.9,
+        "ldlMgDl": 10,
+        "largeBuoyantMgDl": 2.1
+      },
+      "obtained": {
+        "value": 7.9,
+        "ldlMgDl": 10,
+        "largeBuoyantMgDl": 2.1
+      }
+    },
+    {
+      "label": "sampson-direct-10-50",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 3.6,
+        "ldlMgDl": 50,
+        "largeBuoyantMgDl": 46.4
+      },
+      "obtained": {
+        "value": 3.6,
+        "ldlMgDl": 50,
+        "largeBuoyantMgDl": 46.4
+      }
+    },
+    {
+      "label": "sampson-direct-10-100",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-direct-10-250",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-direct-10-500",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-direct-50-1",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-direct-50-10",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-direct-50-50",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 14.9,
+        "ldlMgDl": 50,
+        "largeBuoyantMgDl": 35.1
+      },
+      "obtained": {
+        "value": 14.9,
+        "ldlMgDl": 50,
+        "largeBuoyantMgDl": 35.1
+      }
+    },
+    {
+      "label": "sampson-direct-50-100",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 20.8,
+        "ldlMgDl": 100,
+        "largeBuoyantMgDl": 79.2
+      },
+      "obtained": {
+        "value": 20.8,
+        "ldlMgDl": 100,
+        "largeBuoyantMgDl": 79.2
+      }
+    },
+    {
+      "label": "sampson-direct-50-250",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 38.4,
+        "ldlMgDl": 250,
+        "largeBuoyantMgDl": 211.6
+      },
+      "obtained": {
+        "value": 38.4,
+        "ldlMgDl": 250,
+        "largeBuoyantMgDl": 211.6
+      }
+    },
+    {
+      "label": "sampson-direct-50-500",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 67.8,
+        "ldlMgDl": 500,
+        "largeBuoyantMgDl": 432.2
+      },
+      "obtained": {
+        "value": 67.8,
+        "ldlMgDl": 500,
+        "largeBuoyantMgDl": 432.2
+      }
+    },
+    {
+      "label": "sampson-direct-150-1",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-direct-150-10",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-direct-150-50",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 22.6,
+        "ldlMgDl": 50,
+        "largeBuoyantMgDl": 27.4
+      },
+      "obtained": {
+        "value": 22.6,
+        "ldlMgDl": 50,
+        "largeBuoyantMgDl": 27.4
+      }
+    },
+    {
+      "label": "sampson-direct-150-100",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 36.1,
+        "ldlMgDl": 100,
+        "largeBuoyantMgDl": 63.9
+      },
+      "obtained": {
+        "value": 36.1,
+        "ldlMgDl": 100,
+        "largeBuoyantMgDl": 63.9
+      }
+    },
+    {
+      "label": "sampson-direct-150-250",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 76.9,
+        "ldlMgDl": 250,
+        "largeBuoyantMgDl": 173.1
+      },
+      "obtained": {
+        "value": 76.9,
+        "ldlMgDl": 250,
+        "largeBuoyantMgDl": 173.1
+      }
+    },
+    {
+      "label": "sampson-direct-150-500",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 144.7,
+        "ldlMgDl": 500,
+        "largeBuoyantMgDl": 355.3
+      },
+      "obtained": {
+        "value": 144.7,
+        "ldlMgDl": 500,
+        "largeBuoyantMgDl": 355.3
+      }
+    },
+    {
+      "label": "sampson-direct-400-1",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-direct-400-10",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-direct-400-50",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 29.4,
+        "ldlMgDl": 50,
+        "largeBuoyantMgDl": 20.6
+      },
+      "obtained": {
+        "value": 29.4,
+        "ldlMgDl": 50,
+        "largeBuoyantMgDl": 20.6
+      }
+    },
+    {
+      "label": "sampson-direct-400-100",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 49.9,
+        "ldlMgDl": 100,
+        "largeBuoyantMgDl": 50.1
+      },
+      "obtained": {
+        "value": 49.9,
+        "ldlMgDl": 100,
+        "largeBuoyantMgDl": 50.1
+      }
+    },
+    {
+      "label": "sampson-direct-400-250",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 111.2,
+        "ldlMgDl": 250,
+        "largeBuoyantMgDl": 138.8
+      },
+      "obtained": {
+        "value": 111.2,
+        "ldlMgDl": 250,
+        "largeBuoyantMgDl": 138.8
+      }
+    },
+    {
+      "label": "sampson-direct-400-500",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 213.4,
+        "ldlMgDl": 500,
+        "largeBuoyantMgDl": 286.6
+      },
+      "obtained": {
+        "value": 213.4,
+        "ldlMgDl": 500,
+        "largeBuoyantMgDl": 286.6
+      }
+    },
+    {
+      "label": "sampson-direct-799.999-1",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-direct-799.999-10",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-direct-799.999-50",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 34.3,
+        "ldlMgDl": 50,
+        "largeBuoyantMgDl": 15.7
+      },
+      "obtained": {
+        "value": 34.3,
+        "ldlMgDl": 50,
+        "largeBuoyantMgDl": 15.7
+      }
+    },
+    {
+      "label": "sampson-direct-799.999-100",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 59.6,
+        "ldlMgDl": 100,
+        "largeBuoyantMgDl": 40.4
+      },
+      "obtained": {
+        "value": 59.6,
+        "ldlMgDl": 100,
+        "largeBuoyantMgDl": 40.4
+      }
+    },
+    {
+      "label": "sampson-direct-799.999-250",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 135.5,
+        "ldlMgDl": 250,
+        "largeBuoyantMgDl": 114.5
+      },
+      "obtained": {
+        "value": 135.5,
+        "ldlMgDl": 250,
+        "largeBuoyantMgDl": 114.5
+      }
+    },
+    {
+      "label": "sampson-direct-799.999-500",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 261.9,
+        "ldlMgDl": 500,
+        "largeBuoyantMgDl": 238.1
+      },
+      "obtained": {
+        "value": 261.9,
+        "ldlMgDl": 500,
+        "largeBuoyantMgDl": 238.1
+      }
+    },
+    {
+      "label": "sampson-direct-800-1",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-direct-800-10",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-direct-800-50",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 34.3,
+        "ldlMgDl": 50,
+        "largeBuoyantMgDl": 15.7
+      },
+      "obtained": {
+        "value": 34.3,
+        "ldlMgDl": 50,
+        "largeBuoyantMgDl": 15.7
+      }
+    },
+    {
+      "label": "sampson-direct-800-100",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 59.6,
+        "ldlMgDl": 100,
+        "largeBuoyantMgDl": 40.4
+      },
+      "obtained": {
+        "value": 59.6,
+        "ldlMgDl": 100,
+        "largeBuoyantMgDl": 40.4
+      }
+    },
+    {
+      "label": "sampson-direct-800-250",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 135.5,
+        "ldlMgDl": 250,
+        "largeBuoyantMgDl": 114.5
+      },
+      "obtained": {
+        "value": 135.5,
+        "ldlMgDl": 250,
+        "largeBuoyantMgDl": 114.5
+      }
+    },
+    {
+      "label": "sampson-direct-800-500",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 261.9,
+        "ldlMgDl": 500,
+        "largeBuoyantMgDl": 238.1
+      },
+      "obtained": {
+        "value": 261.9,
+        "ldlMgDl": 500,
+        "largeBuoyantMgDl": 238.1
+      }
+    },
+    {
+      "label": "sampson-panel-1-1-1",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-1-1-40",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-1-1-100",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-1-1-300",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-1-60-1",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-1-60-40",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 3.6,
+        "ldlMgDl": 12.5,
+        "largeBuoyantMgDl": 8.9
+      },
+      "obtained": {
+        "value": 3.6,
+        "ldlMgDl": 12.5,
+        "largeBuoyantMgDl": 8.9
+      }
+    },
+    {
+      "label": "sampson-panel-1-60-100",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-1-60-300",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-1-150-1",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-1-150-40",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-1-150-100",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-1-150-300",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-1-200-1",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-1-200-40",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-1-200-100",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-1-200-300",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-1-350-1",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-1-350-40",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-1-350-100",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-1-350-300",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-1-700-1",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-1-700-40",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-1-700-100",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-1-700-300",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-3-1-1",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-3-1-40",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-3-1-100",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-3-1-300",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-3-60-1",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-3-60-40",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 5.6,
+        "ldlMgDl": 12.3,
+        "largeBuoyantMgDl": 6.7
+      },
+      "obtained": {
+        "value": 5.6,
+        "ldlMgDl": 12.3,
+        "largeBuoyantMgDl": 6.7
+      }
+    },
+    {
+      "label": "sampson-panel-3-60-100",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-3-60-300",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-3-150-1",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-3-150-40",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-3-150-100",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-3-150-300",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-3-200-1",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-3-200-40",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-3-200-100",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-3-200-300",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-3-350-1",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-3-350-40",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-3-350-100",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-3-350-300",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-3-700-1",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-3-700-40",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-3-700-100",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-3-700-300",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-10-1-1",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-10-1-40",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-10-1-100",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-10-1-300",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-10-60-1",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 3.5,
+        "ldlMgDl": 51.4,
+        "largeBuoyantMgDl": 47.9
+      },
+      "obtained": {
+        "value": 3.5,
+        "ldlMgDl": 51.4,
+        "largeBuoyantMgDl": 47.9
+      }
+    },
+    {
+      "label": "sampson-panel-10-60-40",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 7.8,
+        "ldlMgDl": 11.4,
+        "largeBuoyantMgDl": 3.6
+      },
+      "obtained": {
+        "value": 7.8,
+        "ldlMgDl": 11.4,
+        "largeBuoyantMgDl": 3.6
+      }
+    },
+    {
+      "label": "sampson-panel-10-60-100",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-10-60-300",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-10-150-1",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-10-150-40",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-10-150-100",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 4.2,
+        "ldlMgDl": 44.4,
+        "largeBuoyantMgDl": 40.2
+      },
+      "obtained": {
+        "value": 4.2,
+        "ldlMgDl": 44.4,
+        "largeBuoyantMgDl": 40.2
+      }
+    },
+    {
+      "label": "sampson-panel-10-150-300",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-10-200-1",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-10-200-40",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-10-200-100",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-10-200-300",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-10-350-1",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-10-350-40",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-10-350-100",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-10-350-300",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 3.7,
+        "ldlMgDl": 49.4,
+        "largeBuoyantMgDl": 45.7
+      },
+      "obtained": {
+        "value": 3.7,
+        "ldlMgDl": 49.4,
+        "largeBuoyantMgDl": 45.7
+      }
+    },
+    {
+      "label": "sampson-panel-10-700-1",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-10-700-40",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-10-700-100",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-10-700-300",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-50-1-1",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-50-1-40",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-50-1-100",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-50-1-300",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-50-60-1",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 14.4,
+        "ldlMgDl": 45.8,
+        "largeBuoyantMgDl": 31.4
+      },
+      "obtained": {
+        "value": 14.4,
+        "ldlMgDl": 45.8,
+        "largeBuoyantMgDl": 31.4
+      }
+    },
+    {
+      "label": "sampson-panel-50-60-40",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-50-60-100",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-50-60-300",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-50-150-1",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 25.3,
+        "ldlMgDl": 138.6,
+        "largeBuoyantMgDl": 113.3
+      },
+      "obtained": {
+        "value": 25.3,
+        "ldlMgDl": 138.6,
+        "largeBuoyantMgDl": 113.3
+      }
+    },
+    {
+      "label": "sampson-panel-50-150-40",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 20.7,
+        "ldlMgDl": 99.3,
+        "largeBuoyantMgDl": 78.7
+      },
+      "obtained": {
+        "value": 20.7,
+        "ldlMgDl": 99.3,
+        "largeBuoyantMgDl": 78.7
+      }
+    },
+    {
+      "label": "sampson-panel-50-150-100",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 13.6,
+        "ldlMgDl": 38.9,
+        "largeBuoyantMgDl": 25.4
+      },
+      "obtained": {
+        "value": 13.6,
+        "ldlMgDl": 38.9,
+        "largeBuoyantMgDl": 25.4
+      }
+    },
+    {
+      "label": "sampson-panel-50-150-300",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-50-200-1",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 31.4,
+        "ldlMgDl": 190.2,
+        "largeBuoyantMgDl": 158.8
+      },
+      "obtained": {
+        "value": 31.4,
+        "ldlMgDl": 190.2,
+        "largeBuoyantMgDl": 158.8
+      }
+    },
+    {
+      "label": "sampson-panel-50-200-40",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 26.7,
+        "ldlMgDl": 150.9,
+        "largeBuoyantMgDl": 124.2
+      },
+      "obtained": {
+        "value": 26.7,
+        "ldlMgDl": 150.9,
+        "largeBuoyantMgDl": 124.2
+      }
+    },
+    {
+      "label": "sampson-panel-50-200-100",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 19.6,
+        "ldlMgDl": 90.5,
+        "largeBuoyantMgDl": 70.9
+      },
+      "obtained": {
+        "value": 19.6,
+        "ldlMgDl": 90.5,
+        "largeBuoyantMgDl": 70.9
+      }
+    },
+    {
+      "label": "sampson-panel-50-200-300",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-50-350-1",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 49.6,
+        "ldlMgDl": 344.9,
+        "largeBuoyantMgDl": 295.3
+      },
+      "obtained": {
+        "value": 49.6,
+        "ldlMgDl": 344.9,
+        "largeBuoyantMgDl": 295.3
+      }
+    },
+    {
+      "label": "sampson-panel-50-350-40",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 45,
+        "ldlMgDl": 305.6,
+        "largeBuoyantMgDl": 260.7
+      },
+      "obtained": {
+        "value": 45,
+        "ldlMgDl": 305.6,
+        "largeBuoyantMgDl": 260.7
+      }
+    },
+    {
+      "label": "sampson-panel-50-350-100",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 37.9,
+        "ldlMgDl": 245.2,
+        "largeBuoyantMgDl": 207.4
+      },
+      "obtained": {
+        "value": 37.9,
+        "ldlMgDl": 245.2,
+        "largeBuoyantMgDl": 207.4
+      }
+    },
+    {
+      "label": "sampson-panel-50-350-300",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 14.2,
+        "ldlMgDl": 43.9,
+        "largeBuoyantMgDl": 29.8
+      },
+      "obtained": {
+        "value": 14.2,
+        "ldlMgDl": 43.9,
+        "largeBuoyantMgDl": 29.8
+      }
+    },
+    {
+      "label": "sampson-panel-50-700-1",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 92.1,
+        "ldlMgDl": 705.9,
+        "largeBuoyantMgDl": 613.8
+      },
+      "obtained": {
+        "value": 92.1,
+        "ldlMgDl": 705.9,
+        "largeBuoyantMgDl": 613.8
+      }
+    },
+    {
+      "label": "sampson-panel-50-700-40",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 87.4,
+        "ldlMgDl": 666.7,
+        "largeBuoyantMgDl": 579.2
+      },
+      "obtained": {
+        "value": 87.4,
+        "ldlMgDl": 666.7,
+        "largeBuoyantMgDl": 579.2
+      }
+    },
+    {
+      "label": "sampson-panel-50-700-100",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 80.3,
+        "ldlMgDl": 606.3,
+        "largeBuoyantMgDl": 525.9
+      },
+      "obtained": {
+        "value": 80.3,
+        "ldlMgDl": 606.3,
+        "largeBuoyantMgDl": 525.9
+      }
+    },
+    {
+      "label": "sampson-panel-50-700-300",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 56.6,
+        "ldlMgDl": 405,
+        "largeBuoyantMgDl": 348.3
+      },
+      "obtained": {
+        "value": 56.6,
+        "ldlMgDl": 405,
+        "largeBuoyantMgDl": 348.3
+      }
+    },
+    {
+      "label": "sampson-panel-150-1-1",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-150-1-40",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-150-1-100",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-150-1-300",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-150-60-1",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 17.8,
+        "ldlMgDl": 32.6,
+        "largeBuoyantMgDl": 14.7
+      },
+      "obtained": {
+        "value": 17.8,
+        "ldlMgDl": 32.6,
+        "largeBuoyantMgDl": 14.7
+      }
+    },
+    {
+      "label": "sampson-panel-150-60-40",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-150-60-100",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-150-60-300",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-150-150-1",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 41.9,
+        "ldlMgDl": 121.2,
+        "largeBuoyantMgDl": 79.3
+      },
+      "obtained": {
+        "value": 41.9,
+        "ldlMgDl": 121.2,
+        "largeBuoyantMgDl": 79.3
+      }
+    },
+    {
+      "label": "sampson-panel-150-150-40",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 31.7,
+        "ldlMgDl": 83.8,
+        "largeBuoyantMgDl": 52
+      },
+      "obtained": {
+        "value": 31.7,
+        "ldlMgDl": 83.8,
+        "largeBuoyantMgDl": 52
+      }
+    },
+    {
+      "label": "sampson-panel-150-150-100",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 16.1,
+        "ldlMgDl": 26.2,
+        "largeBuoyantMgDl": 10.1
+      },
+      "obtained": {
+        "value": 16.1,
+        "ldlMgDl": 26.2,
+        "largeBuoyantMgDl": 10.1
+      }
+    },
+    {
+      "label": "sampson-panel-150-150-300",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-150-200-1",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 55.3,
+        "ldlMgDl": 170.4,
+        "largeBuoyantMgDl": 115.2
+      },
+      "obtained": {
+        "value": 55.3,
+        "ldlMgDl": 170.4,
+        "largeBuoyantMgDl": 115.2
+      }
+    },
+    {
+      "label": "sampson-panel-150-200-40",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 45.1,
+        "ldlMgDl": 133,
+        "largeBuoyantMgDl": 87.9
+      },
+      "obtained": {
+        "value": 45.1,
+        "ldlMgDl": 133,
+        "largeBuoyantMgDl": 87.9
+      }
+    },
+    {
+      "label": "sampson-panel-150-200-100",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 29.5,
+        "ldlMgDl": 75.4,
+        "largeBuoyantMgDl": 45.9
+      },
+      "obtained": {
+        "value": 29.5,
+        "ldlMgDl": 75.4,
+        "largeBuoyantMgDl": 45.9
+      }
+    },
+    {
+      "label": "sampson-panel-150-200-300",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-150-350-1",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 95.4,
+        "ldlMgDl": 318.1,
+        "largeBuoyantMgDl": 222.8
+      },
+      "obtained": {
+        "value": 95.4,
+        "ldlMgDl": 318.1,
+        "largeBuoyantMgDl": 222.8
+      }
+    },
+    {
+      "label": "sampson-panel-150-350-40",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 85.2,
+        "ldlMgDl": 280.7,
+        "largeBuoyantMgDl": 195.5
+      },
+      "obtained": {
+        "value": 85.2,
+        "ldlMgDl": 280.7,
+        "largeBuoyantMgDl": 195.5
+      }
+    },
+    {
+      "label": "sampson-panel-150-350-100",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 69.6,
+        "ldlMgDl": 223.1,
+        "largeBuoyantMgDl": 153.6
+      },
+      "obtained": {
+        "value": 69.6,
+        "ldlMgDl": 223.1,
+        "largeBuoyantMgDl": 153.6
+      }
+    },
+    {
+      "label": "sampson-panel-150-350-300",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 17.5,
+        "ldlMgDl": 31.2,
+        "largeBuoyantMgDl": 13.7
+      },
+      "obtained": {
+        "value": 17.5,
+        "ldlMgDl": 31.2,
+        "largeBuoyantMgDl": 13.7
+      }
+    },
+    {
+      "label": "sampson-panel-150-700-1",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 188.9,
+        "ldlMgDl": 662.8,
+        "largeBuoyantMgDl": 473.9
+      },
+      "obtained": {
+        "value": 188.9,
+        "ldlMgDl": 662.8,
+        "largeBuoyantMgDl": 473.9
+      }
+    },
+    {
+      "label": "sampson-panel-150-700-40",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 178.8,
+        "ldlMgDl": 625.4,
+        "largeBuoyantMgDl": 446.6
+      },
+      "obtained": {
+        "value": 178.8,
+        "ldlMgDl": 625.4,
+        "largeBuoyantMgDl": 446.6
+      }
+    },
+    {
+      "label": "sampson-panel-150-700-100",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 163.1,
+        "ldlMgDl": 567.8,
+        "largeBuoyantMgDl": 404.6
+      },
+      "obtained": {
+        "value": 163.1,
+        "ldlMgDl": 567.8,
+        "largeBuoyantMgDl": 404.6
+      }
+    },
+    {
+      "label": "sampson-panel-150-700-300",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 111,
+        "ldlMgDl": 375.8,
+        "largeBuoyantMgDl": 264.8
+      },
+      "obtained": {
+        "value": 111,
+        "ldlMgDl": 375.8,
+        "largeBuoyantMgDl": 264.8
+      }
+    },
+    {
+      "label": "sampson-panel-400-1-1",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-400-1-40",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-400-1-100",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-400-1-300",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-400-60-1",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-400-60-40",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-400-60-100",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-400-60-300",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-400-150-1",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 43,
+        "ldlMgDl": 83.1,
+        "largeBuoyantMgDl": 40.1
+      },
+      "obtained": {
+        "value": 43,
+        "ldlMgDl": 83.1,
+        "largeBuoyantMgDl": 40.1
+      }
+    },
+    {
+      "label": "sampson-panel-400-150-40",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 29.5,
+        "ldlMgDl": 50.2,
+        "largeBuoyantMgDl": 20.7
+      },
+      "obtained": {
+        "value": 29.5,
+        "ldlMgDl": 50.2,
+        "largeBuoyantMgDl": 20.7
+      }
+    },
+    {
+      "label": "sampson-panel-400-150-100",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-400-150-300",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-400-200-1",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 60.7,
+        "ldlMgDl": 126.5,
+        "largeBuoyantMgDl": 65.8
+      },
+      "obtained": {
+        "value": 60.7,
+        "ldlMgDl": 126.5,
+        "largeBuoyantMgDl": 65.8
+      }
+    },
+    {
+      "label": "sampson-panel-400-200-40",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 47.3,
+        "ldlMgDl": 93.6,
+        "largeBuoyantMgDl": 46.4
+      },
+      "obtained": {
+        "value": 47.3,
+        "ldlMgDl": 93.6,
+        "largeBuoyantMgDl": 46.4
+      }
+    },
+    {
+      "label": "sampson-panel-400-200-100",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 26.6,
+        "ldlMgDl": 43.1,
+        "largeBuoyantMgDl": 16.5
+      },
+      "obtained": {
+        "value": 26.6,
+        "ldlMgDl": 43.1,
+        "largeBuoyantMgDl": 16.5
+      }
+    },
+    {
+      "label": "sampson-panel-400-200-300",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-400-350-1",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 113.9,
+        "ldlMgDl": 256.7,
+        "largeBuoyantMgDl": 142.8
+      },
+      "obtained": {
+        "value": 113.9,
+        "ldlMgDl": 256.7,
+        "largeBuoyantMgDl": 142.8
+      }
+    },
+    {
+      "label": "sampson-panel-400-350-40",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 100.5,
+        "ldlMgDl": 223.8,
+        "largeBuoyantMgDl": 123.3
+      },
+      "obtained": {
+        "value": 100.5,
+        "ldlMgDl": 223.8,
+        "largeBuoyantMgDl": 123.3
+      }
+    },
+    {
+      "label": "sampson-panel-400-350-100",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 79.8,
+        "ldlMgDl": 173.3,
+        "largeBuoyantMgDl": 93.4
+      },
+      "obtained": {
+        "value": 79.8,
+        "ldlMgDl": 173.3,
+        "largeBuoyantMgDl": 93.4
+      }
+    },
+    {
+      "label": "sampson-panel-400-350-300",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-400-700-1",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 238.1,
+        "ldlMgDl": 560.5,
+        "largeBuoyantMgDl": 322.4
+      },
+      "obtained": {
+        "value": 238.1,
+        "ldlMgDl": 560.5,
+        "largeBuoyantMgDl": 322.4
+      }
+    },
+    {
+      "label": "sampson-panel-400-700-40",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 224.7,
+        "ldlMgDl": 527.6,
+        "largeBuoyantMgDl": 302.9
+      },
+      "obtained": {
+        "value": 224.7,
+        "ldlMgDl": 527.6,
+        "largeBuoyantMgDl": 302.9
+      }
+    },
+    {
+      "label": "sampson-panel-400-700-100",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 204,
+        "ldlMgDl": 477,
+        "largeBuoyantMgDl": 273
+      },
+      "obtained": {
+        "value": 204,
+        "ldlMgDl": 477,
+        "largeBuoyantMgDl": 273
+      }
+    },
+    {
+      "label": "sampson-panel-400-700-300",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 135.1,
+        "ldlMgDl": 308.4,
+        "largeBuoyantMgDl": 173.4
+      },
+      "obtained": {
+        "value": 135.1,
+        "ldlMgDl": 308.4,
+        "largeBuoyantMgDl": 173.4
+      }
+    },
+    {
+      "label": "sampson-panel-799.999-1-1",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-799.999-1-40",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-799.999-1-100",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-799.999-1-300",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-799.999-60-1",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-799.999-60-40",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-799.999-60-100",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-799.999-60-300",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-799.999-150-1",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 28.4,
+        "ldlMgDl": 38.4,
+        "largeBuoyantMgDl": 10
+      },
+      "obtained": {
+        "value": 28.4,
+        "ldlMgDl": 38.4,
+        "largeBuoyantMgDl": 10
+      }
+    },
+    {
+      "label": "sampson-panel-799.999-150-40",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-799.999-150-100",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-799.999-150-300",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-799.999-200-1",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 45.6,
+        "ldlMgDl": 72.4,
+        "largeBuoyantMgDl": 26.8
+      },
+      "obtained": {
+        "value": 45.6,
+        "ldlMgDl": 72.4,
+        "largeBuoyantMgDl": 26.8
+      }
+    },
+    {
+      "label": "sampson-panel-799.999-200-40",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 32.7,
+        "ldlMgDl": 46.8,
+        "largeBuoyantMgDl": 14.1
+      },
+      "obtained": {
+        "value": 32.7,
+        "ldlMgDl": 46.8,
+        "largeBuoyantMgDl": 14.1
+      }
+    },
+    {
+      "label": "sampson-panel-799.999-200-100",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-799.999-200-300",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-799.999-350-1",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 97.3,
+        "ldlMgDl": 174.6,
+        "largeBuoyantMgDl": 77.3
+      },
+      "obtained": {
+        "value": 97.3,
+        "ldlMgDl": 174.6,
+        "largeBuoyantMgDl": 77.3
+      }
+    },
+    {
+      "label": "sampson-panel-799.999-350-40",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 84.3,
+        "ldlMgDl": 149,
+        "largeBuoyantMgDl": 64.6
+      },
+      "obtained": {
+        "value": 84.3,
+        "ldlMgDl": 149,
+        "largeBuoyantMgDl": 64.6
+      }
+    },
+    {
+      "label": "sampson-panel-799.999-350-100",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 64.4,
+        "ldlMgDl": 109.6,
+        "largeBuoyantMgDl": 45.2
+      },
+      "obtained": {
+        "value": 64.4,
+        "ldlMgDl": 109.6,
+        "largeBuoyantMgDl": 45.2
+      }
+    },
+    {
+      "label": "sampson-panel-799.999-350-300",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-799.999-700-1",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 217.9,
+        "ldlMgDl": 412.9,
+        "largeBuoyantMgDl": 195.1
+      },
+      "obtained": {
+        "value": 217.9,
+        "ldlMgDl": 412.9,
+        "largeBuoyantMgDl": 195.1
+      }
+    },
+    {
+      "label": "sampson-panel-799.999-700-40",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 204.9,
+        "ldlMgDl": 387.3,
+        "largeBuoyantMgDl": 182.4
+      },
+      "obtained": {
+        "value": 204.9,
+        "ldlMgDl": 387.3,
+        "largeBuoyantMgDl": 182.4
+      }
+    },
+    {
+      "label": "sampson-panel-799.999-700-100",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 185,
+        "ldlMgDl": 348,
+        "largeBuoyantMgDl": 163
+      },
+      "obtained": {
+        "value": 185,
+        "ldlMgDl": 348,
+        "largeBuoyantMgDl": 163
+      }
+    },
+    {
+      "label": "sampson-panel-799.999-700-300",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 118.6,
+        "ldlMgDl": 216.8,
+        "largeBuoyantMgDl": 98.1
+      },
+      "obtained": {
+        "value": 118.6,
+        "ldlMgDl": 216.8,
+        "largeBuoyantMgDl": 98.1
+      }
+    },
+    {
+      "label": "sampson-panel-800-1-1",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-800-1-40",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-800-1-100",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-800-1-300",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-800-60-1",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-800-60-40",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-800-60-100",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-800-60-300",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-800-150-1",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 28.4,
+        "ldlMgDl": 38.4,
+        "largeBuoyantMgDl": 10
+      },
+      "obtained": {
+        "value": 28.4,
+        "ldlMgDl": 38.4,
+        "largeBuoyantMgDl": 10
+      }
+    },
+    {
+      "label": "sampson-panel-800-150-40",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-800-150-100",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-800-150-300",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-800-200-1",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 45.6,
+        "ldlMgDl": 72.4,
+        "largeBuoyantMgDl": 26.8
+      },
+      "obtained": {
+        "value": 45.6,
+        "ldlMgDl": 72.4,
+        "largeBuoyantMgDl": 26.8
+      }
+    },
+    {
+      "label": "sampson-panel-800-200-40",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 32.7,
+        "ldlMgDl": 46.8,
+        "largeBuoyantMgDl": 14.1
+      },
+      "obtained": {
+        "value": 32.7,
+        "ldlMgDl": 46.8,
+        "largeBuoyantMgDl": 14.1
+      }
+    },
+    {
+      "label": "sampson-panel-800-200-100",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-800-200-300",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-800-350-1",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 97.3,
+        "ldlMgDl": 174.6,
+        "largeBuoyantMgDl": 77.3
+      },
+      "obtained": {
+        "value": 97.3,
+        "ldlMgDl": 174.6,
+        "largeBuoyantMgDl": 77.3
+      }
+    },
+    {
+      "label": "sampson-panel-800-350-40",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 84.3,
+        "ldlMgDl": 149,
+        "largeBuoyantMgDl": 64.6
+      },
+      "obtained": {
+        "value": 84.3,
+        "ldlMgDl": 149,
+        "largeBuoyantMgDl": 64.6
+      }
+    },
+    {
+      "label": "sampson-panel-800-350-100",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 64.4,
+        "ldlMgDl": 109.6,
+        "largeBuoyantMgDl": 45.2
+      },
+      "obtained": {
+        "value": 64.4,
+        "ldlMgDl": 109.6,
+        "largeBuoyantMgDl": 45.2
+      }
+    },
+    {
+      "label": "sampson-panel-800-350-300",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-800-700-1",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 217.9,
+        "ldlMgDl": 412.9,
+        "largeBuoyantMgDl": 195.1
+      },
+      "obtained": {
+        "value": 217.9,
+        "ldlMgDl": 412.9,
+        "largeBuoyantMgDl": 195.1
+      }
+    },
+    {
+      "label": "sampson-panel-800-700-40",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 204.9,
+        "ldlMgDl": 387.3,
+        "largeBuoyantMgDl": 182.4
+      },
+      "obtained": {
+        "value": 204.9,
+        "ldlMgDl": 387.3,
+        "largeBuoyantMgDl": 182.4
+      }
+    },
+    {
+      "label": "sampson-panel-800-700-100",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 185,
+        "ldlMgDl": 348,
+        "largeBuoyantMgDl": 163
+      },
+      "obtained": {
+        "value": 185,
+        "ldlMgDl": 348,
+        "largeBuoyantMgDl": 163
+      }
+    },
+    {
+      "label": "sampson-panel-800-700-300",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 118.6,
+        "ldlMgDl": 216.8,
+        "largeBuoyantMgDl": 98.1
+      },
+      "obtained": {
+        "value": 118.6,
+        "ldlMgDl": 216.8,
+        "largeBuoyantMgDl": 98.1
+      }
+    },
+    {
+      "label": "sampson-direct-bound-triglyceridesMgDl-1",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-direct-bound-triglyceridesMgDl-800",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 69.7,
+        "ldlMgDl": 120,
+        "largeBuoyantMgDl": 50.3
+      },
+      "obtained": {
+        "value": 69.7,
+        "ldlMgDl": 120,
+        "largeBuoyantMgDl": 50.3
+      }
+    },
+    {
+      "label": "sampson-direct-bound-ldlMgDl-1",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-direct-bound-ldlMgDl-500",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 144.7,
+        "ldlMgDl": 500,
+        "largeBuoyantMgDl": 355.3
+      },
+      "obtained": {
+        "value": 144.7,
+        "ldlMgDl": 500,
+        "largeBuoyantMgDl": 355.3
+      }
+    },
+    {
+      "label": "sampson-panel-bound-triglyceridesMgDl-1",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-bound-triglyceridesMgDl-800",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 29.4,
+        "ldlMgDl": 40.3,
+        "largeBuoyantMgDl": 10.9
+      },
+      "obtained": {
+        "value": 29.4,
+        "ldlMgDl": 40.3,
+        "largeBuoyantMgDl": 10.9
+      }
+    },
+    {
+      "label": "sampson-panel-bound-tcMgDl-1",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-panel-bound-tcMgDl-700",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 176.2,
+        "ldlMgDl": 615.8,
+        "largeBuoyantMgDl": 439.6
+      },
+      "obtained": {
+        "value": 176.2,
+        "ldlMgDl": 615.8,
+        "largeBuoyantMgDl": 439.6
+      }
+    },
+    {
+      "label": "sampson-panel-bound-hdlMgDl-1",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 55.3,
+        "ldlMgDl": 170.4,
+        "largeBuoyantMgDl": 115.2
+      },
+      "obtained": {
+        "value": 55.3,
+        "ldlMgDl": 170.4,
+        "largeBuoyantMgDl": 115.2
+      }
+    },
+    {
+      "label": "sampson-panel-bound-hdlMgDl-300",
+      "kind": "mathematical-domain",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "direct-decimal-strings",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 41.6,
+        "ldlMgDl": 120,
+        "largeBuoyantMgDl": 78.4
+      },
+      "obtained": {
+        "value": 41.6,
+        "ldlMgDl": 120,
+        "largeBuoyantMgDl": 78.4
+      }
+    },
+    {
+      "label": "direct-scientific-strings",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 41.6,
+        "ldlMgDl": 120,
+        "largeBuoyantMgDl": 78.4
+      },
+      "obtained": {
+        "value": 41.6,
+        "ldlMgDl": 120,
+        "largeBuoyantMgDl": 78.4
+      }
+    },
+    {
+      "label": "panel-decimal-strings",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 42.5,
+        "ldlMgDl": 123.4,
+        "largeBuoyantMgDl": 80.9
+      },
+      "obtained": {
+        "value": 42.5,
+        "ldlMgDl": 123.4,
+        "largeBuoyantMgDl": 80.9
+      }
+    },
+    {
+      "label": "panel-scientific-strings",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 42.5,
+        "ldlMgDl": 123.4,
+        "largeBuoyantMgDl": 80.9
+      },
+      "obtained": {
+        "value": 42.5,
+        "ldlMgDl": 123.4,
+        "largeBuoyantMgDl": 80.9
+      }
+    },
+    {
+      "label": "sampson-paired-direct-50",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 31.6,
+        "ldlMgDl": 192.4,
+        "largeBuoyantMgDl": 160.8
+      },
+      "obtained": {
+        "value": 31.6,
+        "ldlMgDl": 192.4,
+        "largeBuoyantMgDl": 160.8
+      }
+    },
+    {
+      "label": "sampson-paired-direct-150",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 55.9,
+        "ldlMgDl": 172.6,
+        "largeBuoyantMgDl": 116.8
+      },
+      "obtained": {
+        "value": 55.9,
+        "ldlMgDl": 172.6,
+        "largeBuoyantMgDl": 116.8
+      }
+    },
+    {
+      "label": "sampson-paired-direct-400",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 61.6,
+        "ldlMgDl": 128.6,
+        "largeBuoyantMgDl": 67
+      },
+      "obtained": {
+        "value": 61.6,
+        "ldlMgDl": 128.6,
+        "largeBuoyantMgDl": 67
+      }
+    },
+    {
+      "label": "sampson-paired-direct-800",
+      "kind": "source-numerical",
+      "passed": true,
+      "expected": {
+        "value": 46.6,
+        "ldlMgDl": 74.3,
+        "largeBuoyantMgDl": 27.7
+      },
+      "obtained": {
+        "value": 46.6,
+        "ldlMgDl": 74.3,
+        "largeBuoyantMgDl": 27.7
+      }
+    },
+    {
+      "label": "sampson-null-root",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-array-root",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "direct-triglyceridesMgDl-boolean",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "direct-triglyceridesMgDl-false",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "direct-triglyceridesMgDl-array",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "direct-triglyceridesMgDl-object",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "direct-triglyceridesMgDl-null",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "direct-triglyceridesMgDl-missing",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "direct-triglyceridesMgDl-empty",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "direct-triglyceridesMgDl-whitespace",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "direct-triglyceridesMgDl-infinite",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "direct-triglyceridesMgDl-nan",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "direct-triglyceridesMgDl-hex",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "direct-triglyceridesMgDl-binary",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "direct-triglyceridesMgDl-octal",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "direct-triglyceridesMgDl-comma",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "direct-triglyceridesMgDl-underscore",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "direct-triglyceridesMgDl-below-min",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "direct-triglyceridesMgDl-above-max",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "direct-ldlMgDl-boolean",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "direct-ldlMgDl-false",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "direct-ldlMgDl-array",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "direct-ldlMgDl-object",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "direct-ldlMgDl-null",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "direct-ldlMgDl-missing",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "direct-ldlMgDl-empty",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "direct-ldlMgDl-whitespace",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "direct-ldlMgDl-infinite",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "direct-ldlMgDl-nan",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "direct-ldlMgDl-hex",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "direct-ldlMgDl-binary",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "direct-ldlMgDl-octal",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "direct-ldlMgDl-comma",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "direct-ldlMgDl-underscore",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "direct-ldlMgDl-below-min",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "direct-ldlMgDl-above-max",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "panel-triglyceridesMgDl-boolean",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "panel-triglyceridesMgDl-false",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "panel-triglyceridesMgDl-array",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "panel-triglyceridesMgDl-object",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "panel-triglyceridesMgDl-null",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "panel-triglyceridesMgDl-missing",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "panel-triglyceridesMgDl-empty",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "panel-triglyceridesMgDl-whitespace",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "panel-triglyceridesMgDl-infinite",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "panel-triglyceridesMgDl-nan",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "panel-triglyceridesMgDl-hex",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "panel-triglyceridesMgDl-binary",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "panel-triglyceridesMgDl-octal",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "panel-triglyceridesMgDl-comma",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "panel-triglyceridesMgDl-underscore",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "panel-triglyceridesMgDl-below-min",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "panel-triglyceridesMgDl-above-max",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "panel-tcMgDl-boolean",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "panel-tcMgDl-false",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "panel-tcMgDl-array",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "panel-tcMgDl-object",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "panel-tcMgDl-null",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "panel-tcMgDl-missing",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "panel-tcMgDl-empty",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "panel-tcMgDl-whitespace",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "panel-tcMgDl-infinite",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "panel-tcMgDl-nan",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "panel-tcMgDl-hex",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "panel-tcMgDl-binary",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "panel-tcMgDl-octal",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "panel-tcMgDl-comma",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "panel-tcMgDl-underscore",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "panel-tcMgDl-below-min",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "panel-tcMgDl-above-max",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "panel-hdlMgDl-boolean",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "panel-hdlMgDl-false",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "panel-hdlMgDl-array",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "panel-hdlMgDl-object",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "panel-hdlMgDl-null",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "panel-hdlMgDl-missing",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "panel-hdlMgDl-empty",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "panel-hdlMgDl-whitespace",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "panel-hdlMgDl-infinite",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "panel-hdlMgDl-nan",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "panel-hdlMgDl-hex",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "panel-hdlMgDl-binary",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "panel-hdlMgDl-octal",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "panel-hdlMgDl-comma",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "panel-hdlMgDl-underscore",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "panel-hdlMgDl-below-min",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "panel-hdlMgDl-above-max",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-mode-unknown",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-mode-",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-mode-null",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    },
+    {
+      "label": "sampson-mode-undefined",
+      "kind": "input-validation",
+      "passed": true,
+      "obtainedRejection": "INVALID_INPUT"
+    }
+  ]
+}
